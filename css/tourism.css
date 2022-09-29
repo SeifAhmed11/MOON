@@ -1,0 +1,169 @@
+body
+{
+    /* font-family: "Alfa Slab One" sans-serif , Helvetica; */
+    font-family: "Roboto" , sans-serif , Helvetica;
+    scroll-behavior: smooth;
+    overflow-y: none;
+}
+
+*
+{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    width: 90%;
+    color: antiquewhite;
+    z-index: 999;
+    font-family: "Roboto" ,sans-serif , Helvetica;
+    font-weight: 900;
+    font-size: 20px;
+    justify-content: space-around;
+    margin-top: 15px;
+    background-color: #2e13563a;
+    border-radius: 8px;
+    border: 1px solid #2e0f5d;
+    margin: 14px 8px 0 35px;
+    padding: 5px 0 5px 0;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.sp{
+    margin-right: 49px;
+    transition: 1s;
+}
+
+.sp:hover{
+    color: #2e1356;
+    border: 1px solid #2e1356;
+    background-color: antiquewhite;
+    border-radius: 24px;
+    width: 90px;
+    height: 24px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.down{
+    width: 100%;
+    height: 3px;
+    position: fixed;
+    z-index: 999;
+    margin-top: 2px;
+    display: flex;
+    justify-content:end;
+    top: -100px;
+}
+
+.fa-angles-down{
+    width: 30px;
+    height: 30px;
+    background-color: beige;
+    border-radius: 50%;
+    padding: 1px;
+    margin: 5px 5px 0 0;
+}
+
+
+
+
+
+.img_position{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.mountains_front{
+    z-index: 500;
+}
+
+.world{
+    z-index: 499;
+    position: relative;
+    display: flex;
+    height: 529px;
+    justify-content: center;
+    align-items: end;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto" ,sans-serif , Helvetica;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.moon_light{
+    position: absolute;
+    display: flex;
+    margin: 82px;
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 82px;
+    z-index: 499;
+    font-family: "Roboto" ,sans-serif , Helvetica;
+    display: none;
+}
+
+.mountains_behind{
+    z-index: 498;
+}
+
+.moon{
+    z-index: 497;
+    mix-blend-mode: screen;
+}
+
+.stars{
+    z-index: 496;
+    background: linear-gradient( rgba(46,19,86,1) 53%, rgba(105,143,214,1) 69%); 
+}
+
+.show {
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 24px;
+    width: 150px;
+    height: 44px;
+    text-align: center;
+    padding-top: 4px;
+    transition: 1s;
+}
+
+.show:hover{
+    background-color:#2e1356 ;
+}
+
+.information{
+    background-color:#2e1940 ;
+}
+
+.MOON{
+    margin-top: 380px;
+    font-family: "Alfa Slab One" , sans-serif , Helvetica;
+    text-align: center;
+    color: antiquewhite;
+    font-weight: 900;
+    font-size: 37px;
+    padding: 33px;
+}
+
+
+.info{
+    color: rgb(231, 225, 217);
+    font-weight: 900;
+    font-size: 17px;
+    margin: 0 30px 0 30px;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    padding-bottom: 50px;
+}
